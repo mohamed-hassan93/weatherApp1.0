@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>WeatherApp 1.0</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="mainWeather">
+			<section id="search" class="searchNav">
+				<span class="searchBar">Search for Places</span>
+				<span class="coordinates">Symbol</span>
+			</section>
+			<section id="mainWeatherImage" class = 'mainImage'>
+				<img src="#" alt="Main Weather Image">
+			</section>
+			<section id="mainWeatherTemp" class="mainTemp">
+				<h1 id = 'mainWeatherTempDeg' class="mainTempDeg">20</h1>
+				<h2>C</h2>
+			</section>
+			<section id="weatherDes">
+				<h3 id= 'mainWeatherDes'>Sunny</h3>
+			</section>
+			<section id="mainWeatherDate">
+				<span>Today - </span>
+				<span id="date">Fri, 29 April</span>
+			</section>
+			<section id="mainWeatherLocation">
+				<span id = 'location' class='city'>symbol Toronto</span>
+			</section>
+		</section>
+
+		<section class="additionalInfo">
+			<section class="celOrFer">
+				<span>C</span>
+				<span>F</span>
+			</section>
+			<section class="dailyWeather">
+				<section class="dayOne dailyBreakdown">
+					<section>
+						<span class = 'dayOneDate'>Tomorrow</span>
+					</section>
+					<section>
+						<img src="tomorrowWeather" alt="tomorrowWeather">
+					</section>
+					<section class="highAndLow">
+						<span id = 'tomorrowHighTemp' class ='highTemp'>21C</span>
+						<span id = 'tomorrowLowTemp' class ='lowTemp'>18C</span>
+					</section>
+				</section>
+
+				<section class="dayOne dailyBreakdown">
+					<section>
+						<span class = 'dayOneDate'>Tomorrow</span>
+					</section>
+					<section>
+						<img src="tomorrowWeather" alt="tomorrowWeather">
+					</section>
+					<section class="highAndLow">
+						<span id = 'tomorrowHighTemp' class ='highTemp'>21C</span>
+						<span id = 'tomorrowLowTemp' class ='lowTemp'>18C</span>
+					</section>
+				</section>
+
+				<section class="dayThree dailyBreakdown">
+					<section>
+						<span class = 'dayThreeDate'>Tomorrow</span>
+					</section>
+					<section>
+						<img src="dayThreeWeather" alt="dayThreeWeather">
+					</section>
+					<section class="highAndLow">
+						<span id = 'dayThreeHighTemp' class ='highTemp'>21C</span>
+						<span id = 'dayThreeLowTemp' class ='lowTemp'>18C</span>
+					</section>
+				</section>
+
+				<section class="dayFour dailyBreakdown">
+					<section>
+						<span class = 'dayFourDate'>Tomorrow</span>
+					</section>
+					<section>
+						<img src="dayFourWeather" alt="dayFourWeather">
+					</section>
+					<section class="highAndLow">
+						<span id = 'dayFourHighTemp' class ='highTemp'>21C</span>
+						<span id = 'dayFourLowTemp' class ='lowTemp'>18C</span>
+					</section>
+				</section>
+
+				<section class="dayFive dailyBreakdown">
+					<section>
+						<span class = 'dayFiveDate'>Tomorrow</span>
+					</section>
+					<section>
+						<img src="dayFiveWeather" alt="dayFiveWeather">
+					</section>
+					<section class="highAndLow">
+						<span id = 'dayFiveHighTemp' class ='highTemp'>21C</span>
+						<span id = 'dayFiveLowTemp' class ='lowTemp'>18C</span>
+					</section>
+				</section>
+
+				<section class="daySix dailyBreakdown">
+					<section>
+						<span class = 'daySixDate'>Tomorrow</span>
+					</section>
+					<section>
+						<img src="daySixWeather" alt="daySixWeather">
+					</section>
+					<section class="highAndLow">
+						<span id = 'daySixHighTemp' class ='highTemp'>21C</span>
+						<span id = 'daySixLowTemp' class ='lowTemp'>18C</span>
+					</section>
+				</section>
+
+			</section>
+
+			<section class="todaysHighlights">
+				<h4>Today's Highlights</h4>
+				<div class="todayWind">
+					<span class="highlight">Wind Status</span>
+					<h2 id="windStatus" class="todayWindStatus">7 mph</h2>
+				</div>
+
+			</section>
+
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
